@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top">
+        <div class="top-left">
+            <img class="crnt-card-big" src="" alt="">
+            <h2 class="crnt-song-big"></h2>
+            <h4 class="crnt-artist-big"></h4>
+            <div class="seekbar-container-big">
+                <div class="seekbar-big">
+                    <div class="fill-seekbar-big"></div>
+                </div>
+                <div class="controller-big">
+                    <h4 class="total-time-big"></h4>
+                    <button class="next-big">
+                        <img class="next-big-img" src="assests/nextsong.svg" alt="">
+                    </button>
+                    <button class="play-big">
+                        <img class="play-big-img" src="assests/play.svg" alt="">
+                    </button>
+                    <button class="prev-big">
+                        <img class="prev-big-img" src="assests/prevsong.svg" alt="">
+                    </button>
+                    <h4 class="remain-time-big"></h4>
+                </div>
+                <p id="song-msg"></p>
+            <div class="volume-mobile">
+            <img src="assests/volume.svg" alt="" class="vol-img-mobile">
+            <input type="range" name="" id="" class="vol-input-mobile">
+        </div>
+            </div>
+        </div>
+        
+        <div class="top-right">
+            <h2 class="Album-heading">Albums</h2>
+            <div class="album-card-container">
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+
+        <div class="bottom-song-card">
+            <img src="" alt="" class="bottom-img">
+            <div class="bottom-details">
+                <h3 class="songname"></h3>
+                <h4 class="songartist"></h4>
+            </div>
+        </div>
+        <div class="seekbar-controller">
+            <h4 class="total-time-big">3:25</h4>
+            <div class="seekbar-big">
+                <div class="fill-seekbar-big"></div>
+            </div>
+            <h4 class="remain-time-big">1:22</h4>
+        </div>
+        <div class="volume">
+            <img src="assests/volume.svg" alt="" class="vol-img">
+            <input type="range" name="" id="" class="vol-range">
+        </div>
+    </div>
+
+ <audio id="audio" src=""></audio>
+
+</body>
+</html>
+
+<script src="script.js"></script>
